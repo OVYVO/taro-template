@@ -1,0 +1,23 @@
+{
+    "name": "taro3.x-template",
+    "displayName": "taro3.x-template",
+    "description": "taro3.x代码片段",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/taro.json"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "node ./snippets.js"
+    }
+}
